@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('bg_login.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.login-box {
+    position: relative;
+    background: black;
+    padding: 60px 60px 60px 50px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 50px #565a5a50;
+    text-align: center;
+    width: 300px;    
+}
+
+.login-box h2 {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #f8f5f5d3;
+    font-size: 60px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+       
+    
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox input {
+    width: calc(100% - 30px); 
+    padding: 10px 10px 10px 30px;
+    background: none;
+    border: 1px solid #555;
+    /* border-radius: 5px; */
+    color: #bbb;
+    font-size: 18px;
+}
+
+.textbox input::placeholder {
+    color: #bbb;
+    letter-spacing: 2px;
+}
+
+.textbox .icon {
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #bbb;
+    font-size: 18px;
+}
+
+
+.btn {
+    width: 310px;
+    padding: 10px;
+    background: rgba(0, 128, 128, 0.055);
+    border: 1px solid #555;
+    cursor: pointer;
+    font-size: 20px;
+    color: #f8f5f5d3;
+    transition: background 0.3s;
+    letter-spacing: 3px;
+    
+}
+
+.btn:hover {
+    color: turquoise;
+}
